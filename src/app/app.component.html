@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h2> User model loaded</h2>
+  <div model-ref="user" [scope-ref]="self">
+    <div>First Name : {{user?.first_name}}</div>
+    <div>Last Name : {{user?.last_name}}</div>
+    <div>Email : {{user?.email}}</div>
+    <div>Phone : {{user?.phone}}</div>
+  </div>
+  <button (click)="submituser()">Submit</button>
+  <button (click)="deleteuser()">Delete</button>
+</div>
